@@ -1,1 +1,0 @@
-构建一个单文件FastAPI应用，接收GitHub/GitLab webhook事件，解析后触发agent任务。需要处理：1) 两种平台的webhook签名验证 2) 事件类型路由 3) 异步任务触发 4) 健康检查端点。使用标准库+fastapi+httpx+uvicorn，保持单文件简洁。

@@ -1,1 +1,0 @@
-用户要求一个完整的单文件Python CLI工具，用于管理agent_orch代理。需要包含list, call, batch, status, economy五个命令。使用argparse。输出纯Python代码，无markdown。我将设计一个结构清晰、功能完整的工具，包含模拟API调用、错误处理、表格输出和帮助信息。

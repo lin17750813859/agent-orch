@@ -1,1 +1,0 @@
-用户要求输出一个单一文件的FastAPI应用，用于接收GitHub/GitLab webhook并触发agent任务。需要包含：webhook端点、签名验证（GitHub HMAC-SHA256和GitLab secret token）、事件解析、agent任务触发机制（使用subprocess或直接调用）、日志记录。我将输出完整的可运行代码。

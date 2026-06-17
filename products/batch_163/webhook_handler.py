@@ -1,1 +1,0 @@
-用户要求一个单文件FastAPI应用，接收GitHub/GitLab webhook并触发agent任务。核心需求：1) 验证webhook签名(GitHub HMAC, GitLab token)；2) 解析事件类型；3) 根据事件触发相应的agent任务(这里用占位函数模拟)；4) 返回适当响应。我会包含：环境变量配置、签名验证中间件、事件路由、异步任务触发、错误处理。代码自包含，依赖fastapi, uvicorn, pydantic, hmac, hashlib。
