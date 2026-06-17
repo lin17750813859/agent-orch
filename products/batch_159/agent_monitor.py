@@ -1,0 +1,1 @@
+用户要求一个单文件Python系统监控器，报告CPU、内存、磁盘使用率和agent系统健康。需要跨平台（Windows/Linux/macOS），使用标准库psutil（唯一外部依赖），输出格式化表格。agent健康部分模拟检查进程存活和心跳。代码必须自包含、可运行、无markdown包裹。

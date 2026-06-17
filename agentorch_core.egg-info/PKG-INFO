@@ -1,0 +1,63 @@
+Metadata-Version: 2.4
+Name: agentorch-core
+Version: 1.0.1
+Summary: AgentOrch - Autonomous Multi-Agent AI System: 30+ agents with cognitive architecture
+Author: agentorch
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+Requires-Dist: aiofiles
+Requires-Dist: cryptography
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# agent_orch
+
+Multi-Agent Orchestration Framework
+
+30 autonomous agents with:
+- Cognitive Architecture (metacognition, memory, self-reflection)
+- Treasury Economy (internal bounties, job board, replication)
+- Batch Scheduler (priority queue, circuit breaker, concurrency control)
+- Evolution Engine (auto-dreaming for low-confidence agents)
+- Self-Heal (ledger integrity checks)
+
+## Agents
+
+| # | Agent | Role |
+|---|-------|------|
+| 01 | strategist | Strategic planning & analysis |
+| 02 | analyst | Data analysis & insights |
+| 03 | innovator | Creative innovation |
+| 04 | critic | Critical assessment |
+| 05 | executor | Task execution |
+| 06 | philosopher | Deep thinking & ethics |
+| 07 | scientist | Scientific method |
+| 08 | artist | Aesthetic design |
+| 09 | coach | Guidance & mentoring |
+| 10 | observer | System observation |
+| ... | ... (30 total) | ... |
+
+## Quick Start
+
+```python
+from agent_orch import discover_all, get_cognitive_architecture
+import asyncio
+
+async def main():
+    agents = discover_all()
+    print(f"Found {len(agents)} agents")
+    ca = get_cognitive_architecture("strategist")
+    result = await ca.full_cognitive_cycle("Analyze current trends")
+    print(result["response"][:200])
+
+asyncio.run(main())
+```

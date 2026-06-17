@@ -1,0 +1,1 @@
+用户要求为agent_orch API编写一个单文件FastAPI中间件插件，包含速率限制、日志、认证和CORS。需要确保：1) 使用FastAPI的中间件机制（@app.middleware或BaseHTTPMiddleware）；2) 速率限制使用内存令牌桶或滑动窗口（避免外部依赖）；3) 日志使用Python标准logging模块；4) 认证支持API Key或Bearer Token；5) CORS使用fastapi.middleware.cors。所有功能集成在一个文件中，输出仅代码。

@@ -1,0 +1,1 @@
+用户要求单文件FastAPI webhook接收器，支持GitHub/GitLab webhook并触发agent任务。需要：1) 验证webhook签名（GitHub用HMAC-SHA256，GitLab用secret token）；2) 解析事件类型；3) 触发agent任务（模拟异步执行）；4) 返回200确认。使用标准库+FastAPI+uvicorn。
